@@ -17,6 +17,8 @@
 body{
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
+    background: url("http://pic1.win4000.com/wallpaper/2017-12-02/5a224e3aa3a31.jpg") no-repeat;
+    background-size: 100%;
 }
 
 /*定位小图标样式*/
@@ -69,6 +71,7 @@ i{
 .nav_head{
     display: flex;
     justify-content: space-around;
+    color: whitesmoke;
 }
 
 .weather_provide{
@@ -84,9 +87,7 @@ i{
 /*天气详情样式*/
 .weather_detail{
     width: 800px;
-    /*height: 600px;*/
-    margin: 70px auto;
-    background-color: deepskyblue;
+    margin: 140px auto;
     border-radius: 30px;
     border: none;
 }
@@ -132,6 +133,8 @@ strong{
     margin: 0 8px;
 }
 
+
+/*未来天气预报*/
 .future_weather{
     margin:20px 10px;
 }
@@ -146,4 +149,24 @@ strong{
 
 td{
     padding: 8px;
+}
+
+css磨砂玻璃效果
+body,main::before{
+    background: url("http://pic1.win4000.com/wallpaper/2017-12-02/5a224e3aa3a31.jpg") 0 /cover fixed;
+}
+
+main{
+    position: relative;
+    background: hsla(0,0%,100%,.3);
+    overflow: hidden;
+}
+
+main::before{
+    content: ' ';
+    position: absolute;
+    top: 0;right: 0;bottom: 0;left: 0;
+    filter:blur(15px);
+    z-index: -1;
+    margin: -40px;
 }
