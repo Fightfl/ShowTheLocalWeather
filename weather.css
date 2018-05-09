@@ -83,7 +83,7 @@ i{
 /*天气详情样式*/
 .weather_detail{
     width: 800px;
-    margin: 160px auto;
+    margin: 100px auto;
     border-radius: 30px;
     border: none;
 }
