@@ -18,7 +18,7 @@ body{
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     background: url("http://pic1.win4000.com/wallpaper/2017-12-02/5a224e3aa3a31.jpg") no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 /*定位小图标样式*/
@@ -74,10 +74,6 @@ i{
     color: whitesmoke;
 }
 
-.weather_provide{
-
-}
-
 .weather_location{
     display: inline-block;
     line-height: 45px;
@@ -87,7 +83,7 @@ i{
 /*天气详情样式*/
 .weather_detail{
     width: 800px;
-    margin: 140px auto;
+    margin: 160px auto;
     border-radius: 30px;
     border: none;
 }
@@ -166,7 +162,7 @@ main::before{
     content: ' ';
     position: absolute;
     top: 0;right: 0;bottom: 0;left: 0;
-    filter:blur(15px);
+    filter:blur(20px);
     z-index: -1;
     margin: -40px;
 }
